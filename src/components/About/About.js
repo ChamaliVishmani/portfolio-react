@@ -8,24 +8,21 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
+
+import officialPhoto from "../../Assets/Official_photo.jpeg";
 function About() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <Image
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
-            alt="man-svgrepo"
-          />
+          <Image src={officialPhoto} alt="man-svgrepo" />
           <div className="AboutBio">
-            Hello! My name is <strong>Chamali Vishmani</strong> Lorem Ipsum is
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged.
+            Hello! My name is <strong>Chamali Vishmani</strong> I am a
+            Final-year Computer Engineering undergraduate passionate about AI/
+            ML with a demonstrated ability to swiftly learn and apply creative
+            solutions, I bring hands-on experience in crafting innovative
+            solutions across the development spectrum
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.

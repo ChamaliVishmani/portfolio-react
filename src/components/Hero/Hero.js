@@ -27,14 +27,14 @@ function Hero() {
             <h5>
               Full Stack Developer and an aspirising Machine Learning Engineer
             </h5>
-            <p>I love coding</p>
+            <p>I love to code</p>
           </HeroLeft>
-          <HeroRight>
+          {/* <HeroRight>
             <Image
               src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
               alt="man-svgrepo"
             />
-          </HeroRight>
+          </HeroRight> */}
         </HeroWrapper>
         <ScrollDown to="projects">
           <ScrollLink>
