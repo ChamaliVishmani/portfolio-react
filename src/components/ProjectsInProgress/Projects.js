@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
-function Projects() {
+function ProjectsInProgress() {
   return (
     <>
-      {/* <svg
+      <svg
         height="100%"
         width="100%"
         id="svg"
@@ -19,10 +19,10 @@ function Projects() {
           class="transition-all duration-300 ease-in-out delay-150"
           transform="rotate(-180 720 200)"
         ></path>
-      </svg> */}
+      </svg>
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
-          <div className="SectionTitle">Completed Projects</div>
+          <div className="SectionTitle">Projects currently in progress</div>
           <ProjectCard />
         </div>
       </div>
@@ -30,4 +30,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsInProgress;
