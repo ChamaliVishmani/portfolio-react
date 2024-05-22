@@ -18,6 +18,32 @@ export const ProjectList = [
     demo_url: "https://your_project_demo_link",
   },
   {
+    img: marvelStoriesImg,
+    title: "Marvel Stories",
+    description:
+      "• Uses the marvel API to retrieve the stories of a user given character and gives the title and description of each story",
+    tech_stack: "Reactjs, Marvel API, ChakraUI",
+    github_url: "https://github.com/ChamaliVishmani/marvel_stories",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
+    img: sudokuSolverImg,
+    title: "Sudoku Solver",
+    description: "• Sudoku/ Hexadoku solver using openCV",
+    tech_stack: "Python, OpenCV",
+    github_url: "https://github.com/ChamaliVishmani/Sudoku_Solver",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
+    img: askReference,
+    title: "Ask your reference book",
+    description:
+      "• A project that uses AI to answer questions from a reference book.\n• This is done by using the ChromaDB and Ollama AI models to answer questions from an uploaded pdf.",
+    tech_stack: "Python, ChromaDB, Jupyter, Ollama, Langchain",
+    github_url: "https://github.com/ChamaliVishmani/Ask-your-reference-book",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
     img: nextTripImage,
     title: "Next Trip",
     description:
@@ -36,38 +62,12 @@ export const ProjectList = [
     demo_url: "https://your_project_demo_link/",
   },
   {
-    img: askReference,
-    title: "Ask your reference book",
-    description:
-      "• A project that uses AI to answer questions from a reference book.\n• This is done by using the ChromaDB and Ollama AI models to answer questions from an uploaded pdf.",
-    tech_stack: "Python, ChromaDB, Jupyter, Ollama, Langchain",
-    github_url: "https://github.com/ChamaliVishmani/Ask-your-reference-book",
-    demo_url: "https://your_project_demo_link",
-  },
-  {
-    img: marvelStoriesImg,
-    title: "Marvel Stories",
-    description:
-      "• Uses the marvel API to retrieve the stories of a user given character and gives the title and description of each story",
-    tech_stack: "Reactjs, Marvel API, ChakraUI",
-    github_url: "https://github.com/ChamaliVishmani/marvel_stories",
-    demo_url: "https://your_project_demo_link",
-  },
-  {
     img: covidProImg,
     title: "Covid Pro",
     description:
       "(Software Engineering Project : Semester 04)\n• An integrated system developed with the intention of being used by shops to ensure that their customers and staff follow some of the most essential protocols againts Covid-19 spread.",
     tech_stack: "Arduino, TensorFlow,React, MongoDB",
     github_url: "https://github.com/CovidPro",
-    demo_url: "https://your_project_demo_link",
-  },
-  {
-    img: sudokuSolverImg,
-    title: "Sudoku Solver",
-    description: "• Sudoku/ Hexadoku solver using openCV",
-    tech_stack: "Python, OpenCV",
-    github_url: "https://github.com/ChamaliVishmani/Sudoku_Solver",
     demo_url: "https://your_project_demo_link",
   },
 ];

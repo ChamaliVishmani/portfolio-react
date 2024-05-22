@@ -10,6 +10,8 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
+import heroImg from "../../Assets/hero.png";
+
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,12 +34,9 @@ function Hero() {
               improve my skills. Welcome to my project porfolio!
             </p>
           </HeroLeft>
-          {/* <HeroRight>
-            <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
-              alt="man-svgrepo"
-            />
-          </HeroRight> */}
+          <HeroRight>
+            <Image src={heroImg} alt="man-svgrepo" />
+          </HeroRight>
         </HeroWrapper>
         <ScrollDown to="projects">
           <ScrollLink>
