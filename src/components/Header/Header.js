@@ -1,15 +1,14 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
+import logo from "../../Assets/logo.jpg";
+
 const Header = ({ toggle }) => {
   return (
     <div className="Container">
       <Nav>
         <Logo to="/">
-          <img
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/logo.png"
-            alt="logo"
-          />
+          <img src={logo} alt="logo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects" smooth={true}>
