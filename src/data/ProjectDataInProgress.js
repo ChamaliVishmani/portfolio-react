@@ -1,5 +1,5 @@
 // --------------------------------------- Project List
-import museumObjDetectionImg from "../Assets/projectImgs/museumObjDetection.png";
+// import museumObjDetectionImg from "../Assets/projectImgs/museumObjDetection.jpeg";
 import MediSyncImg from "../Assets/projectImgs/MediSync.png";
 
 export const ProjectInProgressList = [
@@ -7,7 +7,7 @@ export const ProjectInProgressList = [
     img: MediSyncImg,
     title: "MediSync",
     description:
-      "For CodeSprint Competition : The Medical Sector System is an integrated healthcare platform designed tostreamline patient care, enhance diagnostic accuracy, and improve overallhealthcare management. By leveraging advanced technologies such as Natural Language Processing (NLP), Artificial Intelligence (AI), and Machine Learning (ML), our system aims to provide a seamless and efficient experience for bothpatients and healthcare providers.",
+      "(For CodeSprint Competition) \n• MediSync is an integrated healthcare platform designed tostreamline patient care, enhance diagnostic accuracy, and improve overall healthcare management using a microservices architecture. \n Features : \n• Symptom Analysis and Disease Prediction\n• Doctor Recommendation and Appointment Scheduling\n• Patient Health Logs and Medical Records",
     tech_stack: "Python, React, Supabase",
     github_url: "https://github.com/ChamaliVishmani/MediSync_services",
     demo_url: "https://your_project_demo_link",
@@ -17,7 +17,7 @@ export const ProjectInProgressList = [
     title:
       "Designing fabric and cloth using Generative AI (Associated with MAS)",
     description:
-      "Generate new artwork using text input / using text + image input utilizing generative AI to help with the garment designing process.lso includes features to edit existing images using text prompts and a chatbot to communicate with designers (users)",
+      "(Final year undergraduate project)\n• Generate new artwork using text input / using text + image input utilizing generative AI to help with the garment designing process.\n• Also includes features to edit existing images using text prompts and a chatbot to communicate with designers (users)",
     tech_stack: "Langchain,LLMSs, Python, OpenAI, ReactJs",
     github_url: "https://github.com/ChamaliVishmani/museum-object-detection",
     demo_url: "https://your_project_demo_link",

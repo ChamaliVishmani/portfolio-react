@@ -17,7 +17,12 @@ function ProjectCard() {
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
-            <p>{list.description}</p>
+            {list.description.split("\n").map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                {index < list.description.split("\n").length - 1 && <br />}
+              </React.Fragment>
+            ))}
             <Stack>
               <span className="stackTitle">Tech Stack -</span>
               <span className="tags">{list.tech_stack}</span>

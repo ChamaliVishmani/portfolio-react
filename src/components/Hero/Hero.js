@@ -27,7 +27,10 @@ function Hero() {
             <h5>
               Full Stack Developer and an aspirising Machine Learning Engineer
             </h5>
-            <p>I love to code</p>
+            <p>
+              I love to code and I am consistently learning and developing to
+              improve my skills. Welcome to my project porfolio!
+            </p>
           </HeroLeft>
           {/* <HeroRight>
             <Image

@@ -26,6 +26,7 @@ export const CardLeft = styled.div`
     border-radius: 3px;
     border: 1px solid #000;
     height: auto;
+    max-height: 500px;
   }
 `;
 
