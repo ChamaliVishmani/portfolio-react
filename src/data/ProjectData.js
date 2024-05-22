@@ -7,6 +7,12 @@ import marvelStoriesImg from "../Assets/projectImgs/marvelStories.png";
 import covidProImg from "../Assets/projectImgs/covidPro.png";
 import sudokuSolverImg from "../Assets/projectImgs/sudoku.png";
 
+import jsImg from "../Assets/techStackImgs/js.png";
+import reactImg from "../Assets/techStackImgs/react.png";
+import pythonImg from "../Assets/techStackImgs/python.png";
+import mySqlImg from "../Assets/techStackImgs/mysql.png";
+import nodejsImg from "../Assets/techStackImgs/nodejs.png";
+
 export const ProjectList = [
   {
     img: museumObjDetectionImg,
@@ -75,53 +81,24 @@ export const ProjectList = [
 // --------------------------------------- Skills
 
 export const stackList = [
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
-  //   name: "HTML",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
-  //   name: "CSS",
-  // },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
+    img: jsImg,
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: reactImg,
     name: "ReactJS",
   },
   {
-    img: "https://pbs.twimg.com/card_img/1789939876449734656/IfdJeCkF?format=png&name=360x360",
+    img: nodejsImg,
     name: "NodeJS",
   },
   {
-    img: "https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/",
+    img: pythonImg,
     name: "Python",
   },
   {
-    img: "https://assets-global.website-files.com/632d8bdfaa198525e29dd55e/641c1b4e02e8cc2d3f9b010f_mysql-database-web-development-computer-software-dolphin-3f2ef1a6723e0e7faa8ac845294f02a3.png",
+    img: mySqlImg,
     name: "MySQL",
   },
-  // {
-  //   img: "https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png",
-  //   name: "React",
-  // },
-
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
-  //   name: "Bootstrap",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
-  //   name: "Scss",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
-  //   name: "Git",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
-  //   name: "Responsive",
-  // },
 ];

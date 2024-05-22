@@ -18,11 +18,11 @@ function About() {
         <div className="BigCard">
           <Image src={officialPhoto} alt="man-svgrepo" />
           <div className="AboutBio">
-            Hello! My name is <strong>Chamali Vishmani</strong> I am a
-            Final-year Computer Engineering undergraduate passionate about AI/
-            ML with a demonstrated ability to swiftly learn and apply creative
-            solutions, I bring hands-on experience in crafting innovative
-            solutions across the development spectrum
+            Hello! My name is <strong>Chamali Vishmani</strong> <br />I am a
+            Final-year Computer Engineering undergraduate passionate about Full
+            stack development. Currently I'm also learning about AI/ ML.
+            <br />I am consistently on the journey of learning and developing to
+            improve my skills.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
