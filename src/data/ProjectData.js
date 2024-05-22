@@ -3,6 +3,9 @@ import nextTripImage from "../Assets/projectImgs/nextTrip.png";
 import museumObjDetectionImg from "../Assets/projectImgs/museumObjDetection.png";
 import thrifeeImg from "../Assets/projectImgs/thriftee.png";
 import askReference from "../Assets/projectImgs/askReference.png";
+import marvelStoriesImg from "../Assets/projectImgs/marvelStories.png";
+import covidProImg from "../Assets/projectImgs/covidPro.png";
+import sudokuSolverImg from "../Assets/projectImgs/sudoku.png";
 
 export const ProjectList = [
   {
@@ -40,6 +43,32 @@ export const ProjectList = [
     github_url: "https://github.com/ChamaliVishmani/Ask-your-reference-book",
     demo_url: "https://your_project_demo_link",
   },
+  {
+    img: marvelStoriesImg,
+    title: "Marvel Stories",
+    description:
+      "Uses the marvel API to retrieve the stories of a user given character and gives the title and description of each story",
+    tech_stack: "Reactjs, Marvel API, ChakraUI",
+    github_url: "https://github.com/ChamaliVishmani/marvel_stories",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
+    img: covidProImg,
+    title: "Covid Pro",
+    description:
+      "An integrated system developed with the intention of being used by shops to ensure that thjeir customers and staff follow some of the most essential protocols againts Covid-19 spread.",
+    tech_stack: "Arduino, TensorFlow,React, MongoDB",
+    github_url: "https://github.com/CovidPro",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
+    img: sudokuSolverImg,
+    title: "Sudoku Solver",
+    description: "Sudoku/ Hexadoku solver using openCV",
+    tech_stack: "Python, OpenCV",
+    github_url: "https://github.com/ChamaliVishmani/Sudoku_Solver",
+    demo_url: "https://your_project_demo_link",
+  },
 ];
 
 // --------------------------------------- Skills
@@ -73,6 +102,10 @@ export const stackList = [
     img: "https://assets-global.website-files.com/632d8bdfaa198525e29dd55e/641c1b4e02e8cc2d3f9b010f_mysql-database-web-development-computer-software-dolphin-3f2ef1a6723e0e7faa8ac845294f02a3.png",
     name: "MySQL",
   },
+  // {
+  //   img: "https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png",
+  //   name: "React",
+  // },
 
   // {
   //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
