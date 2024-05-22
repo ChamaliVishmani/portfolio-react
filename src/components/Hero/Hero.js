@@ -27,7 +27,7 @@ function Hero() {
           <HeroLeft>
             <h1>Hi, I'm Chamali</h1>
             <h5>
-              Full Stack Developer and an aspirising Machine Learning Engineer
+              Full Stack Developer and an aspiring Machine Learning Engineer
             </h5>
             <p>
               I love to code and I am consistently learning and developing to
