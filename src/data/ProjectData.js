@@ -6,6 +6,7 @@ import askReference from "../Assets/projectImgs/askReference.png";
 import marvelStoriesImg from "../Assets/projectImgs/marvelStories.png";
 import covidProImg from "../Assets/projectImgs/covidPro.png";
 import sudokuSolverImg from "../Assets/projectImgs/sudoku.png";
+import choreoImg from "../Assets/projectImgs/choreo.png";
 
 import jsImg from "../Assets/techStackImgs/js.png";
 import reactImg from "../Assets/techStackImgs/react.png";
@@ -50,6 +51,17 @@ export const ProjectList = [
     demo_url: "https://your_project_demo_link",
   },
   {
+    img: choreoImg,
+    title:
+      " Integration of ServiceNow as an incident management system for Choreo Delivery Insights dashboard for DORA metrics",
+    description:
+      "(Internship project : WSO2)\n• Under this project I integrated ServiceNow with the Choreo insights dashboard using ServiceNow REST APIs such that the incident data in ServiceNow provides the DORA metrics analytics about the developer performance via the insights dashboard.",
+    tech_stack:
+      "React, Typescript, Ballerina, Docker, GitHub, Kubernetes, Postman, UI/UX design, Azure Data Explorer, Azure pipelines, JDBC driver, MySQL, WSL",
+    github_url: "https://github.com/ChamaliVishmani",
+    demo_url: "https://your_project_demo_link",
+  },
+  {
     img: nextTripImage,
     title: "Next Trip",
     description:
@@ -72,7 +84,7 @@ export const ProjectList = [
     title: "Covid Pro",
     description:
       "(Software Engineering Project : Semester 04)\n• An integrated system developed with the intention of being used by shops to ensure that their customers and staff follow some of the most essential protocols againts Covid-19 spread.",
-    tech_stack: "Arduino, TensorFlow,React, MongoDB",
+    tech_stack: "Arduino, TensorFlow, React, MongoDB",
     github_url: "https://github.com/CovidPro",
     demo_url: "https://your_project_demo_link",
   },

@@ -1,6 +1,7 @@
 // --------------------------------------- Project List
-// import museumObjDetectionImg from "../Assets/projectImgs/museumObjDetection.jpeg";
+
 import MediSyncImg from "../Assets/projectImgs/MediSync.png";
+import fypImg from "../Assets/projectImgs/fyp.jpeg";
 
 export const ProjectInProgressList = [
   {
@@ -13,13 +14,13 @@ export const ProjectInProgressList = [
     demo_url: "https://your_project_demo_link",
   },
   {
-    img: "https://miro.medium.com/v2/resize:fit:1200/1*-PlFCd_VBcALKReO3ZaOEg.png",
+    img: fypImg,
     title:
       "Designing fabric and cloth using Generative AI (Associated with MAS)",
     description:
       "(Final year undergraduate project)\n• Generate new artwork using text input / using text + image input utilizing generative AI to help with the garment designing process.\n• Also includes features to edit existing images using text prompts and a chatbot to communicate with designers (users)",
-    tech_stack: "Langchain,LLMSs, Python, OpenAI, ReactJs",
-    github_url: "https://github.com/ChamaliVishmani/museum-object-detection",
+    tech_stack: "Langchain, LLM, Python, OpenAI, ReactJs",
+    github_url: "https://github.com/ChamaliVishmani",
     demo_url: "https://your_project_demo_link",
   },
 ];
