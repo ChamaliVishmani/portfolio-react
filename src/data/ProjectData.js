@@ -13,6 +13,21 @@ import reactImg from "../Assets/techStackImgs/react.png";
 import pythonImg from "../Assets/techStackImgs/python.png";
 import mySqlImg from "../Assets/techStackImgs/mysql.png";
 import nodejsImg from "../Assets/techStackImgs/nodejs.png";
+import cppImg from "../Assets/techStackImgs/cpp.png";
+import htmlImg from "../Assets/techStackImgs/html.png";
+import ts from "../Assets/techStackImgs/ts.png";
+import ballerina from "../Assets/techStackImgs/ballerina.png";
+import javaImg from "../Assets/techStackImgs/java.png";
+import mongoDBImg from "../Assets/techStackImgs/mongoDB.png";
+import restApiImg from "../Assets/techStackImgs/rest.png";
+import flaskImg from "../Assets/techStackImgs/flask.png";
+import jupyterImg from "../Assets/techStackImgs/jupyter.png";
+import langchainImg from "../Assets/techStackImgs/langchain.png";
+import openCVImg from "../Assets/techStackImgs/openCV.png";
+import tensorflowImg from "../Assets/techStackImgs/tensorflow.png";
+import dockerImg from "../Assets/techStackImgs/docker.png";
+import kubernetesImg from "../Assets/techStackImgs/k8.png";
+import vercelImg from "../Assets/techStackImgs/vercel.png";
 
 export const ProjectList = [
   {
@@ -94,8 +109,32 @@ export const ProjectList = [
 
 export const stackList = [
   {
+    img: pythonImg,
+    name: "Python",
+  },
+  {
+    img: cppImg,
+    name: "C++",
+  },
+  {
     img: jsImg,
     name: "JavaScript",
+  },
+  {
+    img: htmlImg,
+    name: "HTML/CSS/JS",
+  },
+  {
+    img: ts,
+    name: "Typescript",
+  },
+  {
+    img: ballerina,
+    name: "Ballarina",
+  },
+  {
+    img: javaImg,
+    name: "Java",
   },
   {
     img: reactImg,
@@ -106,11 +145,47 @@ export const stackList = [
     name: "NodeJS",
   },
   {
-    img: pythonImg,
-    name: "Python",
-  },
-  {
     img: mySqlImg,
     name: "MySQL",
+  },
+  {
+    img: mongoDBImg,
+    name: "MongoDB",
+  },
+  {
+    img: restApiImg,
+    name: "REST APIs",
+  },
+  {
+    img: flaskImg,
+    name: "flask",
+  },
+  {
+    img: jupyterImg,
+    name: "jupyter notebook",
+  },
+  {
+    img: langchainImg,
+    name: "Langchain",
+  },
+  {
+    img: openCVImg,
+    name: "OpenCV",
+  },
+  {
+    img: tensorflowImg,
+    name: "TensorFlow",
+  },
+  {
+    img: dockerImg,
+    name: "Docker",
+  },
+  {
+    img: kubernetesImg,
+    name: "Kubernetes",
+  },
+  {
+    img: vercelImg,
+    name: "Vercel",
   },
 ];
